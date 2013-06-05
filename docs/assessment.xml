@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assessment>
+	<assessmentTaken xmls="http://sampleURL" id="23">
+
+		<dateTaken>2012-12-06-10:13</dateTaken>
+
+		<candidate id="1">
+			<forename>Jim</forename>
+			<surname>Davidson</surname>
+			<company>BAA</company>
+			<airport>LHR</airport>
+		</candidate>
+		
+		<recordings>
+			<recording id="1" activityID="1">
+				<transcript>Leader fower Alpha North between Link one three and Juliet approved leaving Alphas six and seven available</transcript>
+			</recording>
+			<recording id="6" activityID="2">
+				<transcript>Seagull hold short of two seven left roger</transcript>
+			</recording>
+			<recording id="11" activityID="3">
+				<transcript>After the outbound American seven four seven from Romeo proceed to stand report taxiway vacated Leader fower</transcript>
+			</recording>
+			<recording id="16" activityID="4">
+				<transcript>Tow from stand three zero to maintenance hanger via taxiway Alpha Tug one</transcript>
+			</recording>
+			<recording id="25" activityID="5">
+				<transcript>After the landing British Airways A tree twenty cross two seven left and report vacated Seagull</transcript>
+			</recording>
+			
+		</recordings>
+		
+	</assessmentTaken>
+
+	<assessmentTaken xmls="http://sampleURL" id="28">
+
+		<dateTaken>2012-12-07-14:18</dateTaken>
+
+		<candidate id="2">
+			<forename>Curtis</forename>
+			<surname>Muller</surname>
+			<company>BAA</company>
+			<airport>LHR</airport>
+		</candidate>
+
+		<recordings>
+			<recording id="2" activityID="1">
+				<transcript>Leader fower permission to close between Alpha North between Link one tree and Juliet approved leaving Alphas six and seven available</transcript>
+			</recording>
+			<recording id="8" activityID="2">
+				<transcript>Seagull, hold on two seven left</transcript>
+			</recording>
+			<recording id="12" activityID="3">
+				<transcript>After the outbound American Triple seven has left from Romeo proceed to stand report taxiway vacated Leader fower</transcript>
+			</recording>
+			<recording id="17" activityID="4">
+				<transcript>Tow from stand three zero seven to maintenance hanger via taxiway Alpha Tug one</transcript>
+			</recording>
+			<recording id="24" activityID="5">
+				<transcript>After the next landing British Airways A three twenty cross two seven left and report vacated Seagull</transcript>
+			</recording>
+		</recordings>
+		
+	</assessmentTaken>
+
+	<assessmentTaken xmls="http://sampleURL" id="25">
+
+		<dateTaken>2012-12-06-10:01</dateTaken>
+
+		<candidate id="3">
+			<forename>Harrison</forename>
+			<surname>Penfold</surname>
+			<company>BAA</company>
+			<airport>LHR</airport>
+		</candidate>
+
+		<recordings>
+			<recording id="3" activityID="1">
+				<transcript>Leader fower leaving Alphas six and seven available Alpha North between Link won tree and Juliet approved</transcript>
+			</recording>
+			<recording id="9" activityID="2">
+				<transcript>Seagull cross two seven left approved</transcript>
+			</recording>
+			<recording id="13" activityID="2">
+				<transcript>After the outbound American Triple seven from Romeo proceed to taxiway</transcript>
+			</recording>
+			<recording id="18" activityID="4">
+				<transcript>Tow vehicle from stand tree zero to hanger via taxiway Alpha Tug won</transcript>
+			</recording>
+			<recording id="23" activityID="5">
+				<transcript>After the next landing British Airways A tree twenty cross to seven left and report vacated Seagull</transcript>
+			</recording>
+		</recordings>
+		
+	</assessmentTaken>
+
+	<assessmentTaken xmls="http://sampleURL" id="38">
+
+		<dateTaken>2012-12-08-07:56</dateTaken>
+
+		<candidate id="4">
+			<forename>Carol</forename>
+			<surname>Ellis</surname>
+			<company>BAA</company>
+			<airport>LGW</airport>
+		</candidate>
+
+		<recordings>
+			<recording id="4" activityID="1">
+				<transcript>Leader fower available Alpha North between Link won tree and Juliet leaving Alphas six and seven approved</transcript>
+			</recording>
+			<recording id="10" activityID="2">
+				<transcript>Tower, hold short of two seven left</transcript>
+			</recording>
+			<recording id="14" activityID="3">
+				<transcript>After the outbound Boeing Triple seven from Romeo proceed to stand report taxiway vacated Leader fower</transcript>
+			</recording>
+			<recording id="19" activityID="4">
+				<transcript>Tow vehicle from stand tree zero to hanger via taxiway Alpha Tug won</transcript>
+			</recording>
+			<recording id="22" activityID="5">
+				<transcript>After the next landing British Airways A tree twenty cross too seven left and report vacated Seagull</transcript>
+			</recording>
+		</recordings>
+		
+	</assessmentTaken>
+
+	<assessmentTaken xmls="http://sampleURL" id="22">
+
+		<dateTaken>2012-12-06-12:07</dateTaken>
+
+		<candidate id="5">
+			<forename>Rob</forename>
+			<surname>Takei</surname>
+			<company>BAA</company>
+			<airport>LHR</airport>
+		</candidate>
+
+		<recordings>
+			<recording id="5" activityID="1">
+				<transcript>Leader fower Alpha North between Link won tree and Juliet approved leaving Alphas six and seven available</transcript>
+			</recording>
+			<recording id="7" activityID="2">
+				<transcript>Seagull short of two seven left hold</transcript>
+			</recording>
+			<recording id="15" activityID="3">
+				<transcript>Before the outbound Boeing Triple seven from Romeo proceed to stand report taxiway vacated Leader four</transcript>
+			</recording>
+			<recording id="20" activityID="4">
+				<transcript>Tow from stand three zero to maintenance hanger via taxiway Alpha Tug one</transcript>
+			</recording>
+			<recording id="21" activityID="5">
+				<transcript>After the next landing British Airways A three twenty cross two seven left and report vacated Seagull</transcript>
+			</recording>
+		</recordings>
+		
+	</assessmentTaken>
+</assessment>

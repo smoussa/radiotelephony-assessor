@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://sampleURL" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="results">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="candidate" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="forename" type="xs:string" maxOccurs="1" />
+							<xs:element name="surname" type="xs:string" maxOccurs="1" />
+							<xs:element name="company" type="xs:string" default="BAA" maxOccurs="1" />
+							<xs:element name="airport" type="xs:string" default="LHR" maxOccurs="1" />
+							<xs:element name="assessments" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="assessmentTaken" maxOccurs="unbounded" minOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="dateTaken" type="xs:string" />
+													<xs:element name="mark" type="xs:decimal" />
+													<xs:element name="passed" type="xs:boolean" />
+													<xs:element name="recordings">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="recording" maxOccurs="unbounded" minOccurs="1">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="transcript" type="xs:string" maxOccurs="1" />
+																			<xs:element name="feedback" type="xs:string" maxOccurs="1" />
+																			<xs:element name="mark" type="xs:decimal" maxOccurs="1" />
+																		</xs:sequence>
+																		<xs:attribute name="activityID" type="xs:string" />
+																		<xs:attribute name="id" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						<xs:attribute name="id" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
